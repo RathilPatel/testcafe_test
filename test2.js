@@ -4,8 +4,7 @@ var time = new Date()
 
 var session_time = String(session_time).substr(4,22)
 
-process.env.BROWSERSTACK_USERNAME = 'rathilpatel1'
-process.env.BROWSERSTACK_ACCESS_KEY = 'LGUNnQMtjxeGa7xnuXi9'
+
 process.env.BROWSERSTACK_PROJECT_NAME = 'Falcon 900'
 process.env.BROWSERSTACK_BUILD_ID = 'Vormir- '+session_time
 process.env.BROWSERSTACK_TEST_RUN_NAME = 'Infinity_Test-'+session_time
