@@ -1,6 +1,6 @@
 import { Selector } from 'testcafe';
 var time = new Date()
-var session_time = String(session_time).substr(4,22)
+var session_time = String(time).substr(4,17)
 
 
 process.env.BROWSERSTACK_PROJECT_NAME = 'TestCafe_BrowserStack'
