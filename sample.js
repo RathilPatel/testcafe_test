@@ -4,8 +4,8 @@ var session_time = String(time).substr(4,17)
 
 
 process.env.BROWSERSTACK_PROJECT_NAME = 'TestCafe_BrowserStack'
-process.env.BROWSERSTACK_BUILD_ID = 'TestCafeRuns- '+session_time
-process.env.BROWSERSTACK_TEST_RUN_NAME = 'TextFixture-Getstarted'
+process.env.BROWSERSTACK_BUILD_ID = 'TestCafe Run- '+session_time
+process.env.BROWSERSTACK_TEST_RUN_NAME = 'TextFixture Getstarted'
 process.env.BROWSERSTACK_PARALLEL_RUNS = '5'
 process.env.BROWSERSTACK_USE_AUTOMATE = '1'
 process.env.BROWSERSTACK_CHROME_ARGS="--start-maximized"
